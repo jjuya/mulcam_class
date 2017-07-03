@@ -1,0 +1,11 @@
+package basic.exam2;
+
+public class DoWhileTest {
+	public static void main(String[] args) {
+		 
+		for(int i = 1, j = 1; i <= 10; i++) {
+			System.out.println((i * 10)+ j + " : Ho");
+		} //end for
+		
+	} //end main
+} //end main

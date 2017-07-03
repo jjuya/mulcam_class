@@ -1,0 +1,11 @@
+package _0619.exam4;
+
+public class ArrayTest3 {
+	public static void main(String[] args) {
+		int[] score = {
+				{100, 90, 80, 70},
+				{90, 80, 70, 60},
+				{80, 70, 60, 50}
+		};
+	}
+}

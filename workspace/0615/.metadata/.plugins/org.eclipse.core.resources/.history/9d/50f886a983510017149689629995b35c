@@ -1,0 +1,59 @@
+package basic.exam2;
+
+public class ForTest4 {
+	public static void main(String[] args) {
+
+		for(int i = 1; i <= 9; i++) {
+			for(int j = 2; j <= 9; j++) {
+				System.out.print(j + " * "  + i + " = " + (i * j) + "\t");
+			} //end inner for
+
+			System.out.println();
+		} //end outer for
+
+		System.out.println();
+
+
+		for(int i = 1; i <= 2; i++) {
+			for(int j = 2; j <= 5; j++) {
+				System.out.print(j + " * "  + i + " = " + (i * j) + "\t");
+			} //end inner for
+
+			System.out.println();
+
+			for(int k = 6; k <= 9; k++) {
+				System.out.print(k + " * "  + i + " = " + (i * k) + "\t");
+			} //end inner for
+
+			System.out.println();
+		} //end outer for
+
+		System.out.println();
+
+		for(int row = 1; row <= 2; row++) {
+			for(int col = 1; col <=4 ; col++) {
+				for(int i = 1; i <= 9; i++) {
+					System.out.print(i+" \t");
+				}
+			}
+
+			System.out.println();
+		}
+
+
+
+
+		for(int i = 1; i <= 9; i++) {
+			for(int row = 1; row <= 2; row++) {
+				for(int col = 1; col <=4 ; col++) {System.out.print(i+" \t");}
+
+
+			}
+
+
+			System.out.println();
+		}
+
+
+	} //end main
+} //end class

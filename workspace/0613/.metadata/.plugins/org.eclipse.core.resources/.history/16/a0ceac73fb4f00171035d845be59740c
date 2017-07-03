@@ -1,0 +1,23 @@
+package basic.exam;
+
+import java.util.Scanner;
+
+public class ArithmaticTest {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int a;
+		int b;
+		
+		a = sc.nextInt();
+		b = sc.nextInt();
+		
+		System.out.println( a + "+" + b + "=" + a + b);
+		System.out.println( a + "+" + b + "=" + (a + b));
+		System.out.println( a + "-" + b + "=" + (a - b));
+		System.out.println( a + "*" + b + "=" + (a * b));
+		System.out.println( a + "/" + b + "=" + (a / b));
+		System.out.println( a + "%" + b + "=" + (a % b));
+	}
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function first_func() {
+		var str = document.getElementById('web2').innerText;
+
+		console.log(str)
+// 		alert(str);
+	}
+</script>
+</head>
+<body>
+
+<div onclick="alert('hello')">hello world</div>
+<div id="web2" onclick="first_func()">hello world</div>
+<div onclick="">hello world</div>
+<hr/>
+
+<span>hello</span>
+<span>hello</span>
+<span>hello</span>
+
+</body>
+</html>

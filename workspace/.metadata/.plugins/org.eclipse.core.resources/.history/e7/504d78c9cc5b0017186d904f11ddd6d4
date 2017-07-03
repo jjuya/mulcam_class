@@ -1,0 +1,10 @@
+package memo.model;
+
+public class memoVO {
+	
+	private int no;
+	private String name;
+	private String title;
+	private String content;
+	
+}

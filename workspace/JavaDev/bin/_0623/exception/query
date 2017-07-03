@@ -1,0 +1,8 @@
+Dynamic Query vs Parameter Query
+Dynamic Query : 프로그램에서 잘라서 붙이고 해서 만든 쿼리
+Parameter Query : Parameter 처리해서 
+
+> Parameter Query를 사용하는 것이 좋다
+1) 쿼리 작성이 간결
+2) 성능
+3) SQL Injection

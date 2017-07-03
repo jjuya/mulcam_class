@@ -1,0 +1,47 @@
+package basic.exam2;
+
+public class ForTest4 {
+	public static void main(String[] args) {
+		
+		//강사님
+		for(int i = 1; i <= 9; i+=4) {
+			for(int j = 2; j <= 9; j++) {
+				System.out.print(i + " * "  + j + " = " + (i * j) + "\t");
+			} //end inner for
+
+			System.out.println();
+		} //end outer for
+
+		System.out.println();
+
+		System.out.println();
+		
+//		// 도영오빠
+//		for(int row = 0; row < 2; row++) {
+//			for(int i = 1; i <=9 ; i++) {
+//				for(int j = 2 + (4 * row); j <= 5 +(4 * row); j++) {
+//					System.out.print(j + " * "  + i + " = " + (i * j) + "\t");
+//				}
+//				System.out.println();
+//			}
+//
+//			System.out.println();
+//		}
+//
+//		System.out.println();
+//		
+//		//희남오빠
+//		for (int i = 0; i <= 4; i+=4) {
+//			for (int j = 1; j <= 9; j++) {
+//				for (int k = 2; k <= 5; k++) {
+//					System.out.print((k+i) + "x" + j + "=" + (k+i) * j + "\t");
+//					}
+//				System.out.println();
+//		
+//			}
+//			System.out.println();
+//
+//		}
+
+	} //end main
+} //end class

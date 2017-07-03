@@ -1,0 +1,32 @@
+package basic.exam2;
+
+public class ForTest {
+	public static void main(String[] args) {
+
+		int sum = 0;
+		
+		for(int i = 1; i <= 3; i++) {
+			sum += i;
+		} //end for
+		
+		System.out.println(sum);
+		
+		
+		int sum3 = 0;
+		
+		for(int i = 0; i <= 1000; i = i + 3) {
+			sum3 += i;
+		} //end for
+		
+		
+		int sum_T = 0;
+		
+		for(int i = 1; i <= 1000; i++) {
+			if((i % 3) == 0)
+				sum_T += i;
+		} //end for
+		
+		System.out.println(sum_T);
+		
+	} //end maim
+} //end class

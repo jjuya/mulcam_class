@@ -1,0 +1,20 @@
+package basic.exam2;
+
+public class IfTest {
+	public static void main(String[] args) {
+		
+		int n = 1;
+		
+		if(n == 1) {
+			System.out.println("Man");
+		}
+		else if(n == 2) {
+			System.out.println("Waman");
+		}
+		else {
+			System.out.println("Error");
+		}
+		
+		System.out.println("End");
+	}
+}

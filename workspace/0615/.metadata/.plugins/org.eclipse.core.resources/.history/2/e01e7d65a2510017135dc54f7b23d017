@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table>
+<tr>
+	<td> <textarea rows="5" cols="30"></textarea> </td>
+	<td></td>
+	<td> <textarea rows="5" cols="30"></textarea> </td>
+</tr>
+</table>
+
+</body>
+</html>

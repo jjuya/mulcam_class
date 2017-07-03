@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+
+	function btn_on() {
+		document.getElementById('ret').value = "Hello";
+	}
+	
+	function btn_off() {
+		document.getElementById('ret').value = "";
+	}
+
+</script>
+
+</head>
+
+<body>
+	<input type="text" id="ret" />
+	<button type="button" id="on" onclick="btn_on()">ON</button>
+	<button type="button" id="off" onclick="btn_off()">OFF</button>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+package basic.exam;
+
+public class Arithmatic2Test {
+	public static void main(String[] args) {
+		int i = 7;
+		int j = 4;
+		
+		System.out.println(i > j);
+		System.out.println(i < j);
+		System.out.println(i >= j);
+		System.out.println(i >= j);
+		System.out.println(i == j);
+		System.out.println(i != j);
+	}
+}

@@ -1,0 +1,27 @@
+package basic.exam2;
+
+public class SwitchTest {
+	public static void main(String[] args) {
+		
+		int n = 3;
+		
+		switch (n) {
+		case 1: case 3:
+			System.out.println("Man");
+			break;
+			
+		case 2:
+			System.out.println("Waman");
+			break;
+		
+			
+		case 4:
+			System.out.println("Waman");
+			break;
+
+		default:
+			break;
+		} //end switch-case
+		
+	} //end main
+} //end class

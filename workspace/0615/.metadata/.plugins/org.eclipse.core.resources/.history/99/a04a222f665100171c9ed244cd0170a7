@@ -1,0 +1,12 @@
+package basic.exam2;
+
+public class BreakTest {
+	public static void main(String[] args) {
+		
+		int sum = 0;
+		for(int i = 1; ; i++) {
+			sum += i;
+		} //end for
+		
+	} //end main
+} //end class

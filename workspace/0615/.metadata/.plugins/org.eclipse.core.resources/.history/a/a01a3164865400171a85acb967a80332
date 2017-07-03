@@ -1,0 +1,20 @@
+package _0619.ex3;
+
+import java.util.*;
+
+public class CalendarExam {
+	public static void main(String[] args) {
+		
+		Calendar now = Calendar.getInstance();
+		
+		int year = now.get(Calendar.YEAR);
+		int month = now.get(Calendar.MONTH) + 1;
+		//month 데이터가 배열에 저장되어 있다. > 1월이 0번지에 저장
+		int day = now.get(Calendar.DATE);
+		
+		System.out.println(year);
+		System.out.println(month);
+		System.out.println(day);
+		
+	} //end main
+} //end class

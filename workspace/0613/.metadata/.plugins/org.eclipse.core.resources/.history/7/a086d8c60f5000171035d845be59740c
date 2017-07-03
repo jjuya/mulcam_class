@@ -1,0 +1,17 @@
+package basic.exam2;
+
+public class IfTest {
+	public static void main(String[] args) {
+		
+		int n = 2;
+		
+		if(n == 2) {
+			System.out.println("Waman");
+		}
+		else {
+			System.out.println("Man");
+		}
+		
+		System.out.println("End");
+	}
+}

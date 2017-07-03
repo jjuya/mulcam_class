@@ -1,0 +1,14 @@
+package basic.exam2;
+
+public class IfTest {
+	public static void main(String[] args) {
+		
+		int n = 2;
+		
+		if(n == 2) {
+			System.out.println("여자");
+		}
+		
+		System.out.println("End");
+	}
+}

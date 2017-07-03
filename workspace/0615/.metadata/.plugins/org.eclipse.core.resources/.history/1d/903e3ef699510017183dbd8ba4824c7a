@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Link</title>
+</head>
+<body>
+<a href="http://www.naver.com"> 네이버 </a>
+
+<img src = "../img/angry.jpg"/>
+
+<a href="http://www.naver.com" ><img src ="../img/nLogo.JPG"/></a>
+<a href="http://www.naver.com" target="new"><img src ="../img/nLogo.JPG"/></a>
+
+<img src="../img/sj.jpg" alt="sj.jpg" usemap="#sj.jpg" style="border: ">
+<map name="sj.jpg">
+	<area shape="poly" coords="204, 221, 241, 221, 256, 204, 278, 203, 297, 212, 2" href="http:/www.naver.com" />
+</map>
+
+
+</body>
+</html>

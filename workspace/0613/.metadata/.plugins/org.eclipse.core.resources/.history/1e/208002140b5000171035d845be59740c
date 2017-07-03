@@ -1,0 +1,31 @@
+package basic.exam;
+
+public class ConversionTest {
+	public static void main(String[] args) {
+		
+//		double d = 10;	// 자동 형변환(묵시적 형변환)
+//		System.out.println(d);
+//		
+//		int i = (int)3.14;	// 강제 형변환(명시적 형변환)
+//		System.out.println(i);
+		
+//		int n = (int)(Math.random() * 6) + 1;
+//		System.out.println(n);
+		
+		
+		// Q1) 4 ~15의 정수 random
+		
+		int q1_result = ((int)(Math.random() * 11) + 1) + 4;
+		System.out.println(q1_result);
+		
+		
+		// Q2) 600, 700, 800, 900, 1000,
+		//     1100, 1200, 1300, 1400, 1500,
+		//	   1600, 1700, 1800, 1900, 2000, 
+		//	    2100, 2200
+		
+		int q2_reult = (((int)(Math.random() * 16) + 1) + 6)*100;
+		System.out.println(q2_reult);
+		
+	}
+}

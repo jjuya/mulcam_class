@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	function shift_right() {
+		let str = document.getElementById('ta1').value;
+
+		if (str !== '') {
+			document.getElementById('ta2').value = str;
+			document.getElementById('ta1').value = '';
+		}
+
+	}
+</script>
+
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td>
+				<textarea id="ta1" rows="5" cols="20">캬컄캬컄캬컄캬캬캬캬캬캬캬컄캬캬캬캬컄</textarea>
+			</td>
+			<td>
+				<button onclick="shift_right()">→</button>
+			</td>
+			<td><textarea id="ta2" rows="5" cols="20"></textarea></td>
+		</tr>
+	</table>
+
+</body>
+</html>

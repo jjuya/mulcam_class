@@ -1,0 +1,92 @@
+package basic.exam2;
+
+import java.util.Scanner;
+
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
+public class SwitchTest2 {
+	public static void main(String[] args) {
+		
+		String[] caption = {"Scissors", "Rock", "Paper"};
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Input Number(1.Scissors 2.Rock 3.Paper) : ");
+		int user = sc.nextInt();
+		int com = (int)(Math.random() * 3) + 1;
+		
+		int ret = user -com;
+		
+		System.out.println("You : " + caption[user - 1]);
+		System.out.println("Com : " + caption[com - 1]);
+		
+		if(ret == 0) {
+			System.out.println("Draw");
+		}
+		else if(ret == 1 || ret == -2) {
+			System.out.println("Win");
+		}
+		if(ret == -1 || ret == 2) {
+			System.out.println("Lose");
+		}
+		
+		
+//		switch (user) {
+//		case 1:
+//			System.out.println("You : Scissors");
+//			
+//			if(com == 1) {
+//				System.out.println("Com : Scissors");
+//				System.out.println("Draw");
+//			}
+//			else if(com == 2) {
+//				System.out.println("Com : Rock");
+//				System.out.println("Lose");
+//			}
+//			else {
+//				System.out.println("Com : Paper");
+//				System.out.println("Win");
+//			}
+//			break;
+//			
+//		case 2:
+//			System.out.println("You : Rock");
+//			
+//			if(com == 1) {
+//				System.out.println("Com : Scissors");
+//				System.out.println("Win");
+//			}
+//			else if(com == 2) {
+//				System.out.println("Com : Rock");
+//				System.out.println("Draw");
+//			}
+//			else {
+//				System.out.println("Com : Paper");
+//				System.out.println("Lose");
+//			}
+//			break;
+//			
+//		case 3:
+//			System.out.println("You : Paper");
+//			
+//			if(com == 1) {
+//				System.out.println("Com : Scissors");
+//				System.out.println("Lose");
+//			}
+//			else if(com == 2) {
+//				System.out.println("Com : Rock");
+//				System.out.println("Win");
+//			}
+//			else {
+//				System.out.println("Com : Paper");
+//				System.out.println("Draw");
+//			}
+//			break;
+//
+//		default:
+//			System.out.println("Error");
+//			break;
+//		}
+
+	} //end main
+} //end class

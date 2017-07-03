@@ -1,0 +1,77 @@
+<%@page import="java.sql.DriverManager"%>
+<%@page import="board.model.BoardVO"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%
+	long no = Long.parseLong(request.getParameter("no"));
+
+	Connection cn = null;
+	PreparedStatement ps = null;
+	ResultSet rs = null;
+	
+	StringBuffer sql = new StringBuffer();
+	sql.append(" select no, name, title, regdate, viewcount, content");
+	sql.append(" from tb_board");
+	sql.append(" where no = ?;");
+	
+	BoardVO board = null ;
+	
+	try {
+	Class.forName("oracle.jdbc.OracleDriver");
+
+	cn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "bigdata", "bigdata");
+	PS = cn.prepareStatement(sql.toString());
+	rs = ps.executeQuery();
+
+	}
+	catch {}
+	finally {}
+	
+	
+%>    
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+<table>
+	<caption>게시물 상세보기</caption>
+<tr>
+	<th>글번호</th>
+	<td><%=no %></td>
+</tr>
+<tr>
+	<th>작성자</th>
+	<td>피터샘슨</td>
+</tr>
+<tr>
+	<th>제목</th>
+	<td>실수란</td>
+</tr>
+<tr>
+	<th>내용</th>
+	<td>신을 용서하는 인간의 행위이다</td>
+</tr>
+<tr>
+	<th>날짜</th>
+	<td>2017-06-30</td>
+</tr>
+<tr>
+	<th>조회수</th>
+	<td>667</td>
+</tr>
+</table><br/>
+<a href="">리스트</a>
+<a href="">수정</a>
+<a href="">삭제</a>
+</form>
+</body>
+</html>

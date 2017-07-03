@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+
+<div>
+	<h5>1.버튼을 클릭하면 테스트 문장의 폰트크기와 색깔이 변경되도록 함수를 완성하세요.</h5>
+	<p id="target1"> 테스트 문장 </p>
+	<button onclick="myFunction()"> Click Me! </button>
+</div>
+
+<div>
+	<h5>2.테스트 문장을 클릭하면 화면에서 사라지는 jQuery 활용 예제를 만들어 제출하세요.</h5>
+	<p id="target2"> 테스트 문장 </p>
+</div>
+
+<script>
+
+	<!-- 1번 -->
+	function myFunction() {
+		document.getElementById('target1').style.color = 'red';
+		document.getElementById('target1').style.fontSize = '40px';
+	};
+	
+	<!-- 2번 -->
+	$(document).ready(function() {
+		$('#target2').click(function() {
+			$(this).hide();
+		})
+	});
+
+</script>
+
+</body>
+</html>

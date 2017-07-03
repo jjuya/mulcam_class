@@ -1,0 +1,10 @@
+package javadev;
+
+public class PrimitiveTest {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

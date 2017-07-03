@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Link</title>
+</head>
+<body>
+<a href="http://www.naver.com"> 네이버 </a>
+
+<img src = "../img/angry.jpg"/>
+
+<a href="http://www.naver.com" src="../img/nLogo.jpg"> 네이버 </a>
+
+</body>
+</html>

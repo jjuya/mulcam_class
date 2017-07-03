@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;JavaDev&apos;&#x0D;&#x0A;- Original project: &apos;javadev_t&apos;&#x0D;&#x0A;- Destination element: &apos;JavaDev&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     자바메모리구조.ppt&#x0D;&#x0A;     Garbage Collection.pdf&#x0D;&#x0A;     log.txt&#x0D;&#x0A;     note.txt&#x0D;&#x0A;     si1.png&#x0D;&#x0A;     product.properties" description="Copy files" element1="자바메모리구조.ppt" element2="Garbage Collection.pdf" element3="log.txt" element4="note.txt" element5="si1.png" element6="product.properties" files="6" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1499041792288" target="/JavaDev" units="0" version="1.0"/>
+</session>

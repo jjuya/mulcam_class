@@ -1,0 +1,26 @@
+package javadev;
+
+public class PrimitiveTest {
+
+	public static void main(String[] args) {
+		
+		boolean b = true; // 사용은 1bit 하지만 1byte 할당
+		// true or false를 나타내는 1비트(1바이트 할당)
+		System.out.println("b = " + b);
+		
+		byte b2 = 127;
+		// -128~127, 1byte
+		System.out.println("b2 = " + b2);
+		
+		int i = 2147483647;
+		// -2147483648 ~ 2147483647 (4byte)
+		System.out.println("i = " + i);
+		
+		short s = 32767;
+		// -32768 ~ 32767
+		System.out.println("s = " + s);
+		
+		
+	}
+
+}

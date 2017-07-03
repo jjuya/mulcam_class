@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function first_func() {
+		
+	}
+</script>
+</head>
+<body>
+
+<div onclick="alert('hello')">hello world</div>
+<div onclick="first_func()">hello world</div>
+<div>hello world</div>
+<hr/>
+
+<span>hello</span>
+<span>hello</span>
+<span>hello</span>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+package _0619.ex3;
+
+import java.util.*;
+
+public class MyCalendar {
+	public static void main(String[] args) {
+
+		Calendar now = Calendar.getInstance();
+
+		int year = 0;
+		int month = 0;
+		int startDay;
+		int endDay;
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Input Year : ");
+		year = sc.nextInt();
+		System.out.print("Input month : ");
+		month = sc.nextInt();
+		
+		Calendar sDay = Calendar.getInstance();
+		Calendar eDay = Calendar.getInstance();
+		
+		startDay = sDay.set(year, month - 1, 1);
+		endDay
+		
+		
+		for(int i = 0; i < 7; i++) {
+			System.out.println();
+		} //end for
+
+	} //end main
+} //end class

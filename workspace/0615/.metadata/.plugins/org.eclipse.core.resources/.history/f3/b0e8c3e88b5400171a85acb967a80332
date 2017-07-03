@@ -1,0 +1,33 @@
+package _0619.ex3;
+
+import java.util.*;
+
+public class MyCalendar {
+	public static void main(String[] args) {
+
+		Calendar sDay = Calendar.getInstance();
+		
+		int year = 0;
+		int month = 0;
+		int startDay = 0;
+		int endDay = 0;
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Input Year : ");
+		year = sc.nextInt();
+		System.out.print("Input month : ");
+		month = sc.nextInt();
+		
+		
+		sDay.set(year, month - 1, 1);
+		startDay = sDay.get(Calendar.DAY_OF_WEEK);
+		
+		endDay = sDay.getActualMaximum(Calendar.DATE);
+		
+		System.out.println(year + " 년 " + month + " 월 ");
+		System.out.println("-----------------------------");
+		System.out.println("일 월 화 수 목 금 토");
+
+	} //end main
+} //end class

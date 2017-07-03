@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jst.jsp.ui.internal.preferences.ui.JSPTemplatePreferencePage$JSPEditTemplateDialog_dialogBounds">
+		<item value="612" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="433" key="DIALOG_HEIGHT"/>
+		<item value="131" key="DIALOG_X_ORIGIN"/>
+		<item value="-16" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value=";" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value=");break;"/>
+			<item value="out.print("/>
+			<item value="basic"/>
+			<item value="SamsungTV"/>
+		</list>
+		<list key="replacehistory">
+			<item value=";"/>
+			<item value="return "/>
+			<item value="_0621"/>
+			<item value="SonyTV"/>
+			<item value="HarmanSpeaker"/>
+			<item value="LgTV"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="271" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="390" key="DIALOG_HEIGHT"/>
+		<item value="848" key="DIALOG_X_ORIGIN"/>
+		<item value="170" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

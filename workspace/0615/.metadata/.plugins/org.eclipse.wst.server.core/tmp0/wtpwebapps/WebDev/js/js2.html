@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	function shift_right() {
+		let str = document.getElementById('ta1').value;
+
+		if (str !== '') {
+			document.getElementById('ta2').value = str;
+			document.getElementById('ta1').value = '';
+		}
+
+	}
+	
+	function shift_left() {
+		let str = document.getElementById('ta2').value;
+
+		if (str !== '') {
+			document.getElementById('ta1').value = str;
+			document.getElementById('ta2').value = '';
+		}
+
+	}
+</script>
+
+<script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"61647",secure:"61656"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
+<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-10" data-genuitec-path="/WebDev/WebContent/js/js2.html">
+
+	<table data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-10" data-genuitec-path="/WebDev/WebContent/js/js2.html">
+		<tr>
+			<td>
+				<textarea id="ta1" rows="5" cols="20">캬컄캬컄캬컄캬캬캬캬캬캬캬컄캬캬캬캬컄</textarea>
+			</td>
+			<td>
+				<button onclick="shift_right()">→</button> <br/>
+				<button onclick="shift_left()">←</button> <br/>
+			</td>
+			
+			<td><textarea id="ta2" rows="5" cols="20"></textarea></td>
+		</tr>
+	</table>
+
+</body>
+</html>

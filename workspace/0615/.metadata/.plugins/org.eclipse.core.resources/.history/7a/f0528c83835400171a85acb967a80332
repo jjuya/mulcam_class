@@ -1,0 +1,18 @@
+package _0619.ex3;
+
+import java.text.SimpleDateFormat;
+import java.util.*;
+
+public class DateExam {
+	public static void main(String[] args) {
+		
+		Date now = new Date();
+		String strNow1 = now.toString();
+		
+		System.out.println(strNow1);
+		
+		SimpleDateFormat sdf = 
+				new SimpleDateFormat("yyyy년 mm월 dd분 ss초");
+		
+	} //end main
+} //end class
