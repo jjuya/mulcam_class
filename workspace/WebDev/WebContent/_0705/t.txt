@@ -1,0 +1,6 @@
+EL : Expression Language
+JSTL : Jsp Standard Tag Library
+
+log4j : logger
+slf4j : simple logged fasade for java
+log4jdbc

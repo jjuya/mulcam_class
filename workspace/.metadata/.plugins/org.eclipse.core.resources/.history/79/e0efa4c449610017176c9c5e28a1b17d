@@ -1,0 +1,14 @@
+package _0705.api;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class CollectionTest02 {
+	
+	public static void main(String[] args) {
+		
+		Map<String, String> map = new HashMap<String, String>();
+		
+		map.put<>;
+	} //end main
+} //end class
