@@ -1,0 +1,9 @@
+package _0704.anno;
+
+public class PrintAnnotationExample {
+
+	public static void main(String[] args) {
+		
+		Service service = new Service();
+	} //end main
+} //end class

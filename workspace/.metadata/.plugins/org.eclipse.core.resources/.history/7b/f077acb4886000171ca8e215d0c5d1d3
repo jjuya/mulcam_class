@@ -1,0 +1,6 @@
+package _0704.ano;
+
+public @interface AnnotationTest {
+	
+	@Override
+}

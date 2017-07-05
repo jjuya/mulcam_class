@@ -8,7 +8,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	long pg = 1;
+	long pg = 1; //현재 페이지
 	
 	try {
 		pg = Long.parseLong(request.getParameter("pg"));
@@ -28,11 +28,11 @@
 	sql.append("             order  by no desc) A) B");
 	sql.append(" where  rnum between ? and ?");
 	
-	int pageSize = 10; //한 페이지에 촐력할 게시물 수
-	long totalCnt = 0; //전체 게시물 수 
-	long pageCnt = 0; //전체 페이지 수 
-	long startnum = (pg - 1) * pageSize + 1; //출력페이지 시작 번호
-	long endnum = pg * pageSize; //출력페이지 끝 번호
+	int pageSize = 10; 							//한 페이지에 촐력할 게시물 수
+	long totalCnt = 0; 							//전체 게시물 수 
+	long pageCnt = 0; 							//전체 페이지 수 
+	long startnum = (pg - 1) * pageSize + 1; 	//출력페이지 시작 번호
+	long endnum = pg * pageSize; 				//출력페이지 끝 번호
 	
 	List<BoardVO> list = new ArrayList<BoardVO>();
 	
@@ -146,7 +146,11 @@ table.type08 td {
 <tr>
 	<td colspan="5">
 	<% for(long p=1; p <= pageCnt; p++) { %>
-		<a href="list.jsp?pg=<%=p %>"><%=p %></a>
+		<% if(p == pg) { %>
+			<%=p %>
+		<% } else {%>
+			<a href="list.jsp?pg=<%=p %>"><%=p %></a>
+		<% } %>
 	<% } %>
 	</td>
 </tr>

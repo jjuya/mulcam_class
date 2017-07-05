@@ -1,0 +1,197 @@
+package board.model;
+
+import java.sql.*;
+import java.util.List;
+
+public class BoardDAO {
+	
+	private static BoardDAO boardDAO = null;
+	
+	private Connection cn = null;
+	private PreparedStatement ps = null;
+	private ResultSet rs = null;
+	
+	
+	private BoardDAO() { } //end constructor : BoardDAO
+	
+	public static BoardDAO getInstance() {
+		
+		if(boardDAO == null) {
+			boardDAO = new BoardDAO();
+		}
+		
+		return boardDAO;
+	} //end getInstance()
+	
+	public List<BoardVO> getBoardList(long startnum, long endnum) {
+
+		List<BoardVO> result = new ArrayList<BoardVO>();
+		
+		StringBuffer sql = new StringBuffer();
+		sql.append(" select B.*");
+		sql.append(" from (select rownum AS rnum, A.*");
+		sql.append("       from (select no, title, name, regdate, viewcount");
+		sql.append("             from   tb_board");
+		sql.append("             order  by no desc) A) B");
+		sql.append(" where  rnum between ? and ?");
+		
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			
+			cn = DriverManager.getConnection(
+				"jdbc:oracle:thin:@localhost:1521:xe","bigdata","bigdata");
+
+			ps = cn.prepareStatement(sql.toString());
+			ps.setLong(1, startnum);
+			ps.setLong(2, endnum);
+			rs = ps.executeQuery();
+			
+			while(rs.next()) {
+				BoardVO boardVO = new BoardVO();
+				boardVO.setNo(rs.getLong("no"));
+				boardVO.setName(rs.getString("name"));
+				boardVO.setTitle(rs.getString("title"));
+				boardVO.setRegdate(rs.getDate("regdate"));
+				boardVO.setViewcount(rs.getInt("viewcount"));
+				
+				result.add(boardVO);
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (rs != null) try{rs.close();} catch(Exception e){}
+			if (ps != null) try{ps.close();} catch(Exception e){}
+			if (cn != null) try{cn.close();} catch(Exception e){}
+		}
+		
+		return result;
+	} //end getBoardList()
+	
+	public long getTotalCount() {
+		
+		long result = 0;
+		
+		String sql_totalCount = "SELECT count(*) as cnt FROM tb_board";
+				
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			
+			cn = DriverManager.getConnection(
+				"jdbc:oracle:thin:@localhost:1521:xe","bigdata","bigdata");
+			
+			ps = cn.prepareStatement(sql_totalCount);
+			rs = ps.executeQuery();
+			
+			if(rs.next()) {
+				result = rs.getLong("cnt");
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (rs != null) try{rs.close();} catch(Exception e){}
+			if (ps != null) try{ps.close();} catch(Exception e){}
+			if (cn != null) try{cn.close();} catch(Exception e){}
+		}
+		
+		return result;
+	}
+	
+	
+	
+	public boolean insertBoard(BoardVO boardVO) {
+		
+		boolean result = false;
+		
+		StringBuffer sql = new StringBuffer();
+		sql.append(" INSERT INTO tb_board(no, title, name, content, pwd)");
+		sql.append(" VALUES(seq_board.nextval, ?, ?, ?, ?)");
+		
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			cn = DriverManager.getConnection(
+				"jdbc:oracle:thin:@localhost:1521:xe", "bigdata", "bigdata");
+			ps = cn.prepareStatement(sql.toString());
+			ps.setString(1, boardVO.getTitle());
+			ps.setString(2, boardVO.getName());
+			ps.setString(3, boardVO.getContent());
+			ps.setString(4, boardVO.getPwd());
+			ps.executeUpdate();
+			result = true;
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (ps != null) try{ps.close();}catch(Exception e){}
+			if (cn != null) try{cn.close();}catch(Exception e){}
+		} //end try-catch-finally
+		
+		return result;
+	} //end insertBoard()
+	
+	public boolean updateBoard(BoardVO boardVO) {
+		
+		boolean result = false;
+		
+		StringBuffer sql = new StringBuffer();
+		sql.append(" UPDATE tb_board SET");
+		sql.append("		title=?, name=?, content=?");
+		sql.append(" where no=? AND pwd=?");
+		
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			
+			cn = DriverManager.getConnection(
+				"jdbc:oracle:thin:@localhost:1521:xe", "bigdata", "bigdata");
+			
+			ps = cn.prepareStatement(sql.toString());
+			ps.setString(1, boardVO.getTitle());
+			ps.setString(2, boardVO.getName());
+			ps.setString(3, boardVO.getContent());
+			ps.setLong(4, boardVO.getNo());
+			ps.setString(5, boardVO.getPwd());
+			
+			if(ps.executeUpdate() > 0) {
+				result = true;
+			}
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (ps != null) try{ps.close();}catch(Exception e){}
+			if (cn != null) try{cn.close();}catch(Exception e){}
+		} //end try-catch-finally
+		
+		return result;
+	} //end updateBoard()
+	
+	public boolean deleteBoard(BoardVO boardVO) {		
+		boolean result = false;
+		
+		StringBuffer sql = new StringBuffer();
+		sql.append(" DELETE FROM tb_board");
+		sql.append(" WHERE no=? AND pwd=?");
+		
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			
+			cn = DriverManager.getConnection(
+				"jdbc:oracle:thin:@localhost:1521:xe", "bigdata", "bigdata");
+			
+			ps = cn.prepareStatement(sql.toString());
+			ps.setLong(1, boardVO.getNo());
+			ps.setString(2, boardVO.getPwd());
+			
+			if(ps.executeUpdate() == 1) {
+				result = true;
+			}
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (ps != null) try{ps.close();}catch(Exception e){}
+			if (cn != null) try{cn.close();}catch(Exception e){}
+		} //end try-catch-finally
+		
+		return result;
+	} //end deleteBoard()
+	
+} //end class

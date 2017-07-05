@@ -1,0 +1,8 @@
+package _0704.ano;
+
+public class AnnotationTest {
+	
+	public AnnotationTest(List<String> list) {
+		
+	}
+} //end class

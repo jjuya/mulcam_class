@@ -9,18 +9,21 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value=";" key="selection"/>
+		<item value="cn = getConnection();" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="DriverManager.getConnection("/>
+			<item value="finally"/>
 			<item value=");break;"/>
 			<item value="out.print("/>
 			<item value="basic"/>
 			<item value="SamsungTV"/>
 		</list>
 		<list key="replacehistory">
+			<item value="cn = getConnection();"/>
 			<item value=";"/>
 			<item value="return "/>
 			<item value="_0621"/>
