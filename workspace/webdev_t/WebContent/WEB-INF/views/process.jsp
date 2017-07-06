@@ -9,6 +9,6 @@
 </head>
 <body>
 <img src="img/whoami2.png" />
-<%=request.getAttribute("iam") %>
+${iam}
 </body>
 </html>

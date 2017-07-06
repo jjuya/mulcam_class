@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="_0620.oop.exam2.Point2D"/>
-<fullyQualifiedTypeName name="_0620.oop.exam3.Human"/>
-<fullyQualifiedTypeName name="_0620.oop.exam4.Bird"/>
-<fullyQualifiedTypeName name="_0620.oop.exam4.Eagle"/>
-<fullyQualifiedTypeName name="_0620.oop.exam4.Condor"/>
-<fullyQualifiedTypeName name="_0620.oop.exam4.Animal"/>
-<fullyQualifiedTypeName name="_0620.oop.exam5.Point2D"/>
-<fullyQualifiedTypeName name="_0620.oop.exam5.Point3D"/>
-<fullyQualifiedTypeName name="java.lang.SecurityException"/>
-<fullyQualifiedTypeName name="_0620.oop.exam6.Shape"/>
-<fullyQualifiedTypeName name="_0620.oop.exam6.Triangle"/>
-<fullyQualifiedTypeName name="_0620.oop.exam6.Circle"/>
-<fullyQualifiedTypeName name="_0620.oop.exam6.Rectangle"/>
-<fullyQualifiedTypeName name="_0621.oop.exam8.Account"/>
-<fullyQualifiedTypeName name="_0622.oop.exam10.SamsungTV"/>
 <fullyQualifiedTypeName name="_0622.oop.exam10.Speaker"/>
 <fullyQualifiedTypeName name="_0622.oop.exam10.HarmanSpeaker"/>
 <fullyQualifiedTypeName name="javax.print.attribute.SetOfIntegerSyntax"/>
@@ -37,13 +22,10 @@
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="board.model.BoardDAO"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="board.model.BoardVO"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.fastinfoset.sax.Properties"/>
 <fullyQualifiedTypeName name="org.apache.tomcat.jni.File"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
@@ -60,4 +42,22 @@
 <fullyQualifiedTypeName name="_0704.anno.PrintAnnotation"/>
 <fullyQualifiedTypeName name="_0704.anno.Service"/>
 <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="sun.misc.Perf.GetPerfAction"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="org.apache.commons.codec.digest.DigestUtils"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="sun.awt.RepaintArea"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.regexp.internal.recompile"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="_0705.api.FriendVO"/>
+<fullyQualifiedTypeName name="_0705.cookie.Cooker"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.parser.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="com.sun.istack.internal.logging.Logger"/>
+<fullyQualifiedTypeName name="article.controllers.DispatcherServlet"/>
 </qualifiedTypeNameHistroy>

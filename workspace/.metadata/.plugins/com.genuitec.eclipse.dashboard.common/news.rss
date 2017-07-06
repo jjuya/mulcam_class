@@ -12,7 +12,7 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Mon, 03 Jul 2017 22:15:54 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 05 Jul 2017 21:06:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -68,6 +68,22 @@
 		<guid isPermaLink="false">https://www.genuitec.com/?p=527478</guid>
 		<description><![CDATA[<p>“Two heads are better than one.”, you might hear often, but, that assumes you can get the right two heads together. Pair programming is not an new practice, and it seems everyone has an opinion as to its costs and effectiveness. At Genuitec, we’ve continually evolved our collaborative coding practices to increasingly include pair programming. [&#8230;]</p>
 <p>The post <a rel="nofollow" href="https://www.genuitec.com/taking-pair-programming-remote/">CodeTogether &#8211; Taking Pair Programming Remote.</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Coding DevStyle This Summer!</title>
+		<link>https://www.genuitec.com/coding-devstyle-summer/</link>
+		<pubDate>Thu, 22 Jun 2017 16:48:24 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[darkest dark; themes]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=527467</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/coding-devstyle-summer/">Coding DevStyle This Summer!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
 ]]></description>
 		</item>
 		<item>
@@ -246,31 +262,14 @@
 <p>The post <a rel="nofollow" href="https://www.genuitec.com/updating-angular-app-angular-4/">Updating your Angular app to Angular 4</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
 ]]></description>
 		</item>
-		<item>
-		<title>Software Delivery Evolving for You!</title>
-		<link>https://www.genuitec.com/software-delivery-evolving/</link>
-		<pubDate>Mon, 15 May 2017 13:36:53 +0000</pubDate>
-		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
-				<category><![CDATA[Genuitec]]></category>
-		<category><![CDATA[Secure Delivery Center]]></category>
-		<category><![CDATA[darkest dark]]></category>
-		<category><![CDATA[Eclipse]]></category>
-		<category><![CDATA[SDC]]></category>
-		<category><![CDATA[webclipse]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=521758</guid>
-		<description><![CDATA[<p>Getting all the right software packages to the right teams is not your regular pizza delivery! Our Secure Delivery Center (SDC) has been making administrators’ lives easy by allowing them to provide end users with software, manage licenses, software updates, rollouts, and standardization &#8212; all from one spot. Located behind your firewall, it has hosted a [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.genuitec.com/software-delivery-evolving/">Software Delivery Evolving for You!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
 	</channel>
 </rss>
 
 <!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
 
-Object Caching 9136/9259 objects using disk
+Object Caching 9130/9253 objects using disk
 Page Caching using disk: enhanced (Requested URI is rejected)
 Content Delivery Network via resources.cloud.genuitec.com
-Database Caching 3/45 queries in 0.024 seconds using disk
+Database Caching 43/45 queries in 0.006 seconds using disk
 
- Served from: www.genuitec.com @ 2017-07-04 01:56:03 by W3 Total Cache -->
+ Served from: www.genuitec.com @ 2017-07-05 18:39:50 by W3 Total Cache -->
