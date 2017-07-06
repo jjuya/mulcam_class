@@ -1,7 +1,0 @@
-package _0628;
-
-public class Point2D {
-	
-	private int x;
-	
-}
