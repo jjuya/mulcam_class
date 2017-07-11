@@ -1,0 +1,3 @@
+/article/insert=article.controllers.ArticleInsert
+/article/insertAction=article.controllers.ArticleInsertAction
+/article/list=article.controllers.ArticleList

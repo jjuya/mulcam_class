@@ -1,0 +1,36 @@
+package article.controllers;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import article.models.ArticleDAO;
+import article.models.ArticleDAOImpl;
+import article.models.ArticleVO;
+
+public class ArticleDetail extends AbstractController{
+
+	@Override
+	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
+		
+		long no = Long.parseLong(request.getParameter("no"));
+		
+		ArticleDAO articleDAO = ArticleDAOImpl.getInstance();
+		
+		
+		try {
+			ArticleVO articleVO = ArticleDAO.getDetail(no);
+			
+			return new ModelAndView("/WEB-INF/views/article/detail.jsp", "articleVO", articleVO);
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+			ModelAndView mav = new ModelAndView("/WEB-INF/views/result.jsp");
+			
+			mav.addObject("msg", "게시물 출력 에러 \n 관리자에게 문의하세요.");
+			mav.addObject("url", "");
+		}
+	}
+
+} //end class

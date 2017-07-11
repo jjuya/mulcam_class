@@ -1,0 +1,7 @@
+package article.models;
+
+public interface ArticleDAO {
+
+	void insertArticle(ArticleVO articleVO) throws Exception;
+
+}
