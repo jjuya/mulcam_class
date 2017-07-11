@@ -28,6 +28,6 @@
 %>
 <body>
 <div id="want"><img src="want.png" width="60%" /></div>
-<div class="say"><%=want_string %></h3></div>
+<div id="say"><%=want_string %></h3></div>
 </body>
 </html>
