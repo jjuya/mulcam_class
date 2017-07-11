@@ -1,0 +1,30 @@
+package article.controllers;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import article.models.ArticleDAO;
+import article.models.ArticleDAOImpl;
+import article.models.ArticleVO;
+
+public class ArticleList extends AbstractController {
+
+	@Override
+	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
+		
+		ArticleDAO articleDAO = ArticleDAOImpl.getInstance();
+		
+		try {
+			List<ArticleVO> list = articleDAO.getArticleList();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		ModelAndView mav = new ModelAndView("/WEB-INF/views/article/list.jsp");
+		
+		return mav;
+	}
+
+}

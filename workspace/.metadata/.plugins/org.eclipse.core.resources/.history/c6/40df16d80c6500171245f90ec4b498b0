@@ -1,0 +1,14 @@
+package article.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ArticleUpdate extends AbstractController{
+
+	@Override
+	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

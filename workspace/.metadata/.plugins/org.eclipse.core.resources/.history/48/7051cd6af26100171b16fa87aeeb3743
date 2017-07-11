@@ -1,0 +1,5 @@
+package article.models;
+
+public interface ArticleDAO {
+
+}

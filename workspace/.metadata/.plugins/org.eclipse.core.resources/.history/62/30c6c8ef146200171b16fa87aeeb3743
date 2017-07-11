@@ -1,0 +1,13 @@
+package article.models;
+
+import java.util.List;
+
+public interface ArticleDAO {
+	
+	List<ArticleVO> getArticleList() throws Exception;
+
+	void insertArticle(ArticleVO articleVO) throws Exception;
+
+	
+
+}

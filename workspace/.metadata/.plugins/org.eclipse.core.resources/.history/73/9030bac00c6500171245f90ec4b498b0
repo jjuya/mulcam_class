@@ -1,0 +1,5 @@
+package article.controllers;
+
+public class ArticleUpdate {
+
+}
