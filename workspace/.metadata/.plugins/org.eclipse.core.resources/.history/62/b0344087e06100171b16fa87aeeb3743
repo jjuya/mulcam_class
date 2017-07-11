@@ -1,0 +1,10 @@
+package article.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class AbstractController {
+
+	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response);
+
+}
