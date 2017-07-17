@@ -46,8 +46,8 @@
 <link rel="stylesheet" type="text/css" href="../../css/board_style.css">
 
 <script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"49388",secure:"49479"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
-<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc2-97" data-genuitec-path="/WebDev/WebContent/_0704/board/list.jsp">
-<table class="type08" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc2-97" data-genuitec-path="/WebDev/WebContent/_0704/board/list.jsp">
+<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-98" data-genuitec-path="/WebDev/WebContent/_0704/board/list.jsp">
+<table class="type08" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-98" data-genuitec-path="/WebDev/WebContent/_0704/board/list.jsp">
 	<caption>게시물 리스트</caption>
 <thead>
 <tr>

@@ -1,0 +1,6 @@
+# 경로가 변경 될 경우
+ - camus.R haruki.R
+	setwd 수정
+ - RCallerAnalysis
+ 	caller.setRscriptExecutable("C:/R/R-3.3.2/bin/x64/Rscript.exe");
+ 	의 알 설치 경로로 변경

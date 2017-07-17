@@ -47,8 +47,8 @@
 </tr>
 </table><br/>
 
-<a class="btn btn-default" href="list">리스트</a>
-<a class="btn btn-default" href="update?no=${articleVO.no}">수정</a>
+<a class="btn btn-secondary" href="list">리스트</a>
+<a class="btn btn-primary" href="update?no=${articleVO.no}">수정</a>
 <a class="btn btn-danger" href="delete?no=${articleVO.no}">삭제</a>
 </div>
 </body>

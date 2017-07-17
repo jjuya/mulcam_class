@@ -1,8 +1,0 @@
--- CTAS로 table 생성
-create table tb_article
-as
-select * from tb_board
-where 1 != 1;
-
--- sequence 생성
-create sequence seq_article nocache;

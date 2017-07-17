@@ -1,8 +1,0 @@
-package _0704.ano;
-
-public class AnnotationTest {
-	
-	public AnnotationTest(List<Sting>) {
-		
-	}
-} //end class

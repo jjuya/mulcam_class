@@ -1,0 +1,26 @@
+# ajax
+- javascript and xml을 이용한 비동기적 통신
+- web 2.0의 핵심 기술
+- 필요한 부분만 가져와 사용하겠다.
+
+> 웹에서의 모든 비동기적 통신으로 뜻이 확장
+
+cf. 용어
+web 2.0
+sementic web
+RIA
+
+# XMLHttpRequest 객체
+crossbrowser
+
+
+#json object
+iam.jsp?name=정대만&age=18 > 쿼리 스트링
+
+↓
+
+iam.jsp
+{
+	name:정대만
+	age:18
+}

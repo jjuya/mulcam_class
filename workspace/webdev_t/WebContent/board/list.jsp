@@ -23,6 +23,7 @@
 	List<BoardVO> list = boardDAO.getBoardList(startnum, endnum); // 현재페이지에 출력할 게시물을 get
 	
 	pageCount = totalCount / pageSize;	// 전체 페이지 수
+	
 	if (totalCount % pageSize != 0){
 		pageCount++;
 	}
@@ -104,7 +105,7 @@ table.type08 td {
 		<% if (p == pg) { %>
 			<%=p %>
 		<% } else { %>
-			<a href="list.jsp?pg=<%=p %>"><%=p %></a>
+			<a href="list.jsp?pg=<%=p %>"><%=p %>
 	<% 	   }
 		} %>
 		<% if(endPage == pageCount) { %>

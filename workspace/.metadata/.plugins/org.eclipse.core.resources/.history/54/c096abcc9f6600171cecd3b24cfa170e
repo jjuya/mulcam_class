@@ -1,0 +1,10 @@
+package article.controllers;
+
+public class PageNation {
+
+	long pg = 1;
+	long pageCount = 0;							// 전체 페이지 수
+	long totalCount = 0;						// 전체 게시물 수
+	long blockSize = 10;						// 한페이지에 출력할 페이지수
+	
+} //end class

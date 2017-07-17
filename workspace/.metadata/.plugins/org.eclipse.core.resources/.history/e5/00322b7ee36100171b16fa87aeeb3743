@@ -1,9 +1,0 @@
-package article.controllers;
-
-import java.util.HashMap;
-
-public class ModelAndView {
-
-	private Map<String, Object> model = new HashMap<String, Object>();
-	
-} //end class

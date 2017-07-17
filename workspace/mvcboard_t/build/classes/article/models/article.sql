@@ -43,3 +43,17 @@ delete from TB_ARTICLE
 where no=3;
 
 commit
+
+SELECT B.*
+FROM (SELECT rownum AS rnum, A.*
+      FROM (SELECT no, title, name, regdate, viewcount
+            FROM   tb_article
+            ORDER  BY no DESC) A) B
+WHERE rnum between 11 and 20;
+
+
+
+
+
+
+

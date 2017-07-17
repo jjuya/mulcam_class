@@ -1,5 +1,0 @@
-package article.controllers;
-
-public class ArticleInsert extends AstractController {
-
-}

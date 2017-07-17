@@ -2,6 +2,8 @@ package article.models;
 
 import java.util.List;
 
+import article.controllers.PageNation;
+
 public interface ArticleDAO {
 	
 	ArticleVO getDetail(long no) throws Exception;
@@ -12,5 +14,6 @@ public interface ArticleDAO {
 
 	long getTotalCount() throws Exception;
 	List<ArticleVO> getArticleList() throws Exception;
-	List<ArticleVO> getArticleList(PageVO pageVO)throws Exception;
+	List<ArticleVO> getArticleList(PageVO pageVO) throws Exception;
+	List<ArticleVO> getArticleList(PageNation pageNation) throws Exception;
 }

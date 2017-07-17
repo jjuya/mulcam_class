@@ -1,4 +1,0 @@
-blockSize = 10;
-pg
-startPage = pg/block * blockSize + 1;
-endPage = pg/block * blockSize + blockSize;

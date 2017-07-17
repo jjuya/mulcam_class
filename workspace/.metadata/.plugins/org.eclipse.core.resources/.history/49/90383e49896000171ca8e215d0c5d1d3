@@ -1,8 +1,0 @@
-package _0704.ano;
-
-public @interface AnnotationTest {
-	
-	public AnnotationTest() {
-		
-	}
-} //end class

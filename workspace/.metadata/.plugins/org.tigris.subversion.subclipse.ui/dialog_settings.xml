@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="600" key="ExportRemoteFolderDialog.location.x"/>
+	<item value="358" key="ExportRemoteFolderDialog.location.y"/>
+	<item value="135" key="passwordStores.location.y"/>
+	<item value="585" key="passwordStores.size.y"/>
+	<item value="0" key="passwordStores.location.x"/>
+	<item value="1618" key="passwordStores.size.x"/>
 	<item value="998" key="UpdateDialogWithConflictHandling.location.x"/>
+	<item value="418" key="ExportRemoteFolderDialog.size.x"/>
 	<item value="21" key="UpdateDialogWithConflictHandling.location.y"/>
 	<item value="726" key="UpdateDialogWithConflictHandling.size.y"/>
+	<item value="251" key="ExportRemoteFolderDialog.size.y"/>
 	<item value="525" key="UpdateDialogWithConflictHandling.size.x"/>
 	<section name="NewLocationWizard">
 		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
