@@ -1,0 +1,18 @@
+package watson.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import article.controllers.AbstractController;
+import article.controllers.ModelAndView;
+
+public class Text2Speech extends AbstractController{
+	
+	@Override
+	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
+
+
+		
+		return new ModelAndView("/WEB-INF/views/text2speech/text2speech.jsp");
+	}
+}

@@ -1,0 +1,24 @@
+package watson.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.ibm.watson.developer_cloud.http.ServiceCall;
+import com.ibm.watson.developer_cloud.text_to_speech.v1.TextToSpeech;
+
+import article.controllers.AbstractController;
+import article.controllers.ModelAndView;
+
+public class Text2Speech extends AbstractController{
+	
+	@Override
+	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
+
+		TextToSpeech service = new TextToSpeech();
+		service.setUsernameAndPassword("a3ee8a8d-e9fa-4c9c-a526-28351e087a45", "Evu5bXRi7cqe");
+		ServiceCall call = service.getc
+		List<Voice> voiese = (List<Voice>) call.excute();
+		
+		return new ModelAndView("/WEB-INF/views/text2speech/text2speech.jsp");
+	}
+}
