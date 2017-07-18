@@ -16,5 +16,7 @@ CREATE TABLE t_mem
 	PRIMARY KEY (user_id)
 );
 
+select * from t_mem;
+
 
 

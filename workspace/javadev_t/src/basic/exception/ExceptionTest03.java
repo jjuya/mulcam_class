@@ -2,8 +2,8 @@ package basic.exception;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.Scanner;
 
 public class ExceptionTest03 {
@@ -26,14 +26,14 @@ public class ExceptionTest03 {
 
 	private static MemberVO login(MemberVO userInfo) throws Exception {
 		Connection cn = null;
-		Statement st = null;
+		PreparedStatement st = null;
 		ResultSet rs = null;
 		
 		StringBuffer sql = new StringBuffer();
 		sql.append(" SELECT user_name");
 		sql.append(" FROM   t_mem");
-		sql.append(" WHERE  user_id='"+userInfo.getUser_id()+"'");
-		sql.append(" and    user_pw='"+userInfo.getUser_pw()+"'");
+		sql.append(" WHERE  user_id=?");
+		sql.append(" and    user_pw=?");
 		
 		try {
 			Class.forName("oracle.jdbc.OracleDriver");
@@ -41,8 +41,10 @@ public class ExceptionTest03 {
 					"jdbc:oracle:thin:@localhost:1521:xe", 
 					"bigdata", 
 					"bigdata");
-			st = cn.createStatement();
-			rs = st.executeQuery(sql.toString());
+			st = cn.prepareStatement(sql.toString());
+			st.setString(1, userInfo.getUser_id());
+			st.setString(2, userInfo.getUser_pw());
+			rs = st.executeQuery();
 			if (rs.next()) {
 				userInfo.setUser_name(rs.getString("user_name"));
 				return userInfo;

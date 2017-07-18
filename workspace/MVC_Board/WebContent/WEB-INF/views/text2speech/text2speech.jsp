@@ -26,7 +26,7 @@
 
 	text2speech text example... <br />
 	
-	<textarea rows="7" cols="">Hello</textarea> <br />
+	<textarea rows="7" name="statement">Hello</textarea> <br />
 	
 	<select name="voice">
 		<c:forEach items="${voices}" var="voice">

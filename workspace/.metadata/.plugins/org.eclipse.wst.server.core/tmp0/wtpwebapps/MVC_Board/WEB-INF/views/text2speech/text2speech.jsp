@@ -20,13 +20,13 @@
 
 </script>
 <script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"49388",secure:"49479"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
-<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-0" data-genuitec-path="/MVC_Board/WebContent/WEB-INF/views/text2speech/text2speech.jsp">
+<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-7" data-genuitec-path="/MVC_Board/WebContent/WEB-INF/views/text2speech/text2speech.jsp">
 
-<form id="myform" method="post" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-0" data-genuitec-path="/MVC_Board/WebContent/WEB-INF/views/text2speech/text2speech.jsp">
+<form id="myform" method="post" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-7" data-genuitec-path="/MVC_Board/WebContent/WEB-INF/views/text2speech/text2speech.jsp">
 
 	text2speech text example... <br />
 	
-	<textarea rows="7" cols="">Hello</textarea> <br />
+	<textarea rows="7" name="statement">Hello</textarea> <br />
 	
 	<select name="voice">
 		<c:forEach items="${voices}" var="voice">

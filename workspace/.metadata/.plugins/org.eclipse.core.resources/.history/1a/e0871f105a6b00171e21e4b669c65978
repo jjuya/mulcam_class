@@ -1,0 +1,40 @@
+package _0718.ibatis;
+
+import java.util.Scanner;
+
+public class AccountTest {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		while(true) {
+			
+			int menu = showMenu(sc);
+			
+			switch (menu) {
+			case value:
+				
+				break;
+
+			default:
+				break;
+			}
+			
+		}
+		
+	} //end main
+
+	private static int showMenu(Scanner sc) throws Exception {
+
+		System.out.println("******** MENU ********");
+		System.out.println("1. Insert Member");
+		System.out.println("2. List Member");
+		System.out.println("0.	Exit");
+		System.out.println("**********************");
+		System.out.print(" > ");
+		
+		return sc.nextInt();
+		
+	} //end showMenu
+} //end class

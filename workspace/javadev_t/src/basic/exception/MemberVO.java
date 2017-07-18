@@ -29,4 +29,5 @@ public class MemberVO {
 		return "MemberVO [user_id=" + user_id + ", user_pw=" + user_pw + ", user_name=" + user_name + "]";
 	}
 
+	
 }
