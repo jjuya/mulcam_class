@@ -4,8 +4,33 @@
     "http://ibatis.apache.org/dtd/sql-map-2.dtd">
 
 <sqlMap>
-	<insert id="insertAccount" parameterClass="ibatis.AccountVO">
+	<typeAlias alias="AccountVO" type="ibatis.AccountVO"/>
+
+	<insert id="insertAccount" parameterClass="AccountVO">
 	INSERT INTO tb_account(id, firstName, lastName, emailAddress)
 	VALUES(seq_account.nextval, #firstName#, #lastName#, #emailAddress#)	
 	</insert>
+	<select id="listAccount" resultClass="AccountVO">
+	SELECT id, firstName, lastName, emailAddress
+	FROM   tb_account
+	ORDER  BY id DESC
+	</select>
+	
+	<select id="detailAccount" parameterClass="int" resultClass="AccountVO">
+	SELECT id, firstName, lastName, emailAddress
+	FROM   tb_account
+	WHERE  id=#id#
+	</select>
+	
+	<update id="updateAccount" parameterClass="AccountVO">
+	UPDATE tb_account SET
+	       firstName = #firstName#
+	      ,lastName = #lastName#
+	      ,emailAddress = #emailAddress#
+	WHERE  id = #id#
+	</update>
+	<delete id="deleteAccount" parameterClass="int">
+	DELETE FROM tb_account
+	WHERE  id=#id#
+	</delete>
 </sqlMap>

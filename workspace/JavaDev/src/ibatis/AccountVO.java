@@ -1,4 +1,4 @@
-package _0718.ibatis;
+package ibatis;
 
 public class AccountVO {
 
@@ -38,5 +38,13 @@ public class AccountVO {
   public void setEmailAddress(String emailAddress) {
     this.emailAddress = emailAddress;
   }
+
+@Override
+public String toString() {
+	return "id : \t" + id + "\nfirstName : \t" + firstName + "\nlastName : \t" + lastName + "\nemailAddress : \t"
+			+ emailAddress;
+}
+  
+  
 
 }

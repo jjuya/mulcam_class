@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="jdk.nashorn.internal.ir.TryNode"/>
-<fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Catch"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.Long"/>
 <fullyQualifiedTypeName name="article.models.ArticleDAO"/>
 <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
 <fullyQualifiedTypeName name="sun.security.x509.AVA"/>
 <fullyQualifiedTypeName name="com.sun.javafx.collections.TrackableObservableList"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-<fullyQualifiedTypeName name="article.models.ArticleVO"/>
 <fullyQualifiedTypeName name="article.models.PageVO"/>
 <fullyQualifiedTypeName name="article.models.ArticleDAOImpl"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutionException"/>
@@ -46,7 +38,6 @@
 <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
 <fullyQualifiedTypeName name="article.controllers.ModelAndView"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.http.ServiceCall"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="watson.controllers.Text2SpeechAction"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
@@ -60,4 +51,13 @@
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="ibatis.AccountVO"/>
+<fullyQualifiedTypeName name="_0621.oop.exam8.CalculatorTest"/>
+<fullyQualifiedTypeName name="com.ibatis.sqlmap.engine.builder.xml.SqlMapClasspathEntityResolver"/>
+<fullyQualifiedTypeName name="com.ibatis.sqlmap.engine.impl.SqlMapClientImpl"/>
+<fullyQualifiedTypeName name="article.models.ArticleVO"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="com.ibatis.sqlmap.client.SqlMapClient"/>
+<fullyQualifiedTypeName name="ibatis.QueryHandler"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

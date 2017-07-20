@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"      
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="article">
+	<typeAlias alias="ArticleVO" type="article.models.ArticleVO"/>
+	
+	<delete id="deleteArticle" parameterClass="ArticleVO">
+	DELETE FROM tb_article
+	WHERE	  	no=#no# 
+	AND		 	pwd=#pwd#
+	</delete>
+	
+	<update id="updateArticle" parameterClass="ArticleVO">
+	UPDATE 	tb_article SET
+			name = #name#,
+			title = #title#,
+			content = #content#
+	WHERE 	no = #no#
+	AND		pwd = #pwd#
+	</update>
+	
+	<update id="updateViewcount" parameterClass="long">
+	update tb_article set
+	       viewcount = viewcount + 1
+	where  no = #no#
+	</update>
+
+	<insert id="insertArticle" parameterClass="ArticleVO">
+	INSERT INTO tb_article(no, title, name, pwd, content)
+	VALUES(seq_article.nextval,#title#, #name#, #pwd#, #content#)
+	</insert>
+	
+	<select id="getDetail" parameterClass="long" resultClass="ArticleVO">
+	SELECT no, title, name, regdate, viewcount, content
+	FROM   tb_article
+	WHERE  no=#no#
+	</select>
+	
+	<select id="">
+	SELECT count(*) AS cnt
+	FROM   tb_article
+	</select>
+</sqlMap>

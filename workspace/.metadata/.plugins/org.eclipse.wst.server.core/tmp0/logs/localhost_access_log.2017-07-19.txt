@@ -1,0 +1,15 @@
+127.0.0.1 - - [19/Jul/2017:11:34:01 +0900] "GET / HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:06 +0900] "GET /MVC_Board_ibatis/ HTTP/1.1" 200 1036
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:06 +0900] "GET /favicon.ico HTTP/1.1" 404 1089
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:08 +0900] "GET /MVC_Board_ibatis/article/list HTTP/1.1" 200 4044
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:10 +0900] "GET /MVC_Board_ibatis/article/detail?no=141 HTTP/1.1" 200 1307
+127.0.0.1 - - [19/Jul/2017:11:34:41 +0900] "GET / HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:42 +0900] "GET /MVC_Board_ibatis/ HTTP/1.1" 200 1036
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:44 +0900] "GET /MVC_Board_ibatis/article/list HTTP/1.1" 200 4044
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:45 +0900] "GET /MVC_Board_ibatis/article/detail?no=142 HTTP/1.1" 200 1313
+127.0.0.1 - - [19/Jul/2017:11:34:57 +0900] "GET / HTTP/1.1" 404 1078
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:58 +0900] "GET /MVC_Board_ibatis/ HTTP/1.1" 200 1036
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:34:59 +0900] "GET /MVC_Board_ibatis/article/list HTTP/1.1" 200 4044
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:35:01 +0900] "GET /MVC_Board_ibatis/article/detail?no=142 HTTP/1.1" 200 1905
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:35:02 +0900] "GET /MVC_Board_ibatis/watson/text2speech HTTP/1.1" 200 3154
+0:0:0:0:0:0:0:1 - - [19/Jul/2017:11:35:03 +0900] "GET /MVC_Board_ibatis/article/list HTTP/1.1" 200 4044
