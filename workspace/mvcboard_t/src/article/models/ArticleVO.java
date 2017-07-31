@@ -10,7 +10,6 @@ public class ArticleVO {
 	private String pwd;
 	private Date regdate;
 	private int viewcount;
-	
 	public long getNo() {
 		return no;
 	}
@@ -58,6 +57,6 @@ public class ArticleVO {
 		return "ArticleVO [no=" + no + ", name=" + name + ", title=" + title + ", content=" + content + ", pwd=" + pwd
 				+ ", regdate=" + regdate + ", viewcount=" + viewcount + "]";
 	}
-	
+
 	
 }

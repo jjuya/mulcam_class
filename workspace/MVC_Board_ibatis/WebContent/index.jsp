@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="context" value="${pageContext.request.contextPath}" />   
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +12,9 @@
 </head>
 <body>
 <ol>
-	<li><a href="article/list">게시판</a></li>
-	<li><a href="watson/text2speech">watson, text to speech</a></li>
+	<li><a href="${context}/article/list">게시판</a></li>
+	<li><a href="${context}/watson/text2speech">watson, text to speech</a></li>
+	<li><a href="${context}/member/regist">회원가입</a></li>
 </ol>
 </body>
 </html>

@@ -1,15 +1,20 @@
 package article.models;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.sql.DataSource;
+
+import com.ibatis.sqlmap.client.SqlMapClient;
+
+import article.controllers.PageNation;
+import ibatis.QueryHandler;
 
 public class ArticleDAOImpl implements ArticleDAO {
 	private static ArticleDAOImpl articleDAO = null;
@@ -19,8 +24,17 @@ public class ArticleDAOImpl implements ArticleDAO {
 	private String username = null;
 	private String password = null;
 	
+	private DataSource ds = null;
+	
 	private ArticleDAOImpl() {
-		Properties pr = new Properties();
+		try {
+			Context context = new InitialContext();
+			ds = (DataSource)context.lookup("java:/comp/env/jdbc/mydbcp");
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		/*Properties pr = new Properties();
 		String props =
 			this.getClass().getResource("").getPath() + "/database.properties";
 		try {
@@ -34,10 +48,10 @@ public class ArticleDAOImpl implements ArticleDAO {
 			Class.forName(driver);
 		} catch (ClassNotFoundException | IOException e) {
 			e.printStackTrace();
-		}
+		}*/
 	}
 	private Connection getConnection() throws SQLException {
-		return DriverManager.getConnection(url, username, password);
+		return ds.getConnection();
 	}
 	
 	public static ArticleDAOImpl getInstance() {
@@ -60,7 +74,9 @@ public class ArticleDAOImpl implements ArticleDAO {
 
 	@Override
 	public void insertArticle(ArticleVO articleVO) throws Exception {
-		Connection cn = null;
+		SqlMapClient sqlMap = QueryHandler.getInstance();
+		sqlMap.insert("article.insertArticle", articleVO);
+		/*Connection cn = null;
 		PreparedStatement ps = null;
 		
 		StringBuffer sql = new StringBuffer();
@@ -78,7 +94,7 @@ public class ArticleDAOImpl implements ArticleDAO {
 			ps.executeUpdate();
 		} finally {
 			dbClose(ps, cn);
-		}
+		}*/
 	}
 	
 	@Override
@@ -150,7 +166,9 @@ public class ArticleDAOImpl implements ArticleDAO {
 	
 	@Override
 	public ArticleVO getDetail(long no) throws Exception {
-		ArticleVO articleVO = null;
+		SqlMapClient sqlMap = QueryHandler.getInstance();
+		return (ArticleVO) sqlMap.queryForObject("article.getDetail",no);
+		/*ArticleVO articleVO = null;
 		
 		Connection cn =null;
 		PreparedStatement ps = null;
@@ -180,12 +198,14 @@ public class ArticleDAOImpl implements ArticleDAO {
 		} finally {
 			dbClose(rs, ps, cn);
 		}
-		return articleVO;
+		return articleVO;*/
 	}
 	
 	@Override
 	public void updateViewcount(long no) throws Exception {
-		Connection cn = null;
+		SqlMapClient sqlMap = QueryHandler.getInstance();
+		sqlMap.update("article.updateViewcount", no);
+		/*Connection cn = null;
 		PreparedStatement ps = null;
 		
 		StringBuffer sql = new StringBuffer();
@@ -202,11 +222,16 @@ public class ArticleDAOImpl implements ArticleDAO {
 			}
 		} finally {
 			dbClose(ps, cn);
-		}
+		}*/
 	}
 	@Override
 	public void updateArticle(ArticleVO articleVO) throws Exception {
-		Connection cn = null;
+		SqlMapClient sqlMap = QueryHandler.getInstance();
+		
+		if (sqlMap.update("article.updateArticle", articleVO) == 0){
+			throw new RuntimeException("비밀번호가 틀립니다.");
+		}
+		/*Connection cn = null;
 		PreparedStatement ps = null;
 		
 		StringBuffer sql = new StringBuffer();
@@ -230,12 +255,16 @@ public class ArticleDAOImpl implements ArticleDAO {
 			}
 		} finally {
 			dbClose(ps, cn);
-		}
+		}*/
 	}
 	
 	@Override
 	public void deleteArticle(ArticleVO articleVO) throws Exception {
-		Connection cn = null;
+		SqlMapClient sqlMap = QueryHandler.getInstance();
+		if (sqlMap.delete("article.deleteArticle", articleVO) == 0) {
+			throw new RuntimeException("비밀번호가 틀립니다.");
+		}
+		/*Connection cn = null;
 		PreparedStatement ps = null;
 		
 		StringBuffer sql = new StringBuffer();
@@ -253,11 +282,14 @@ public class ArticleDAOImpl implements ArticleDAO {
 			}
 		} finally {
 			dbClose(ps, cn);
-		}
+		}*/
 	}
 	@Override
 	public long getTotalCount() throws Exception {
-		long result = 0;
+		SqlMapClient sqlMap = QueryHandler.getInstance();
+		return (Long) sqlMap.queryForObject("article.getTotalCount");
+		
+		/*long result = 0;
 		
 		Connection cn =null;
 		PreparedStatement ps = null;
@@ -277,6 +309,45 @@ public class ArticleDAOImpl implements ArticleDAO {
 		} finally {
 			dbClose(rs, ps, cn);
 		}
-		return result;
+		return result;*/
+	}
+	
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<ArticleVO> getArticleList(PageNation pageNation) throws Exception {
+		SqlMapClient sqlMap = QueryHandler.getInstance();
+		return sqlMap.queryForList("article.getArticleList", pageNation);
+		/*Connection cn =null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		
+		List<ArticleVO> list = new ArrayList<ArticleVO>();
+		StringBuffer sql = new StringBuffer();
+		sql.append(" SELECT B.*");
+		sql.append(" FROM (SELECT rownum AS rnum, A.*");
+		sql.append("       FROM (SELECT no, title, name, regdate, viewcount");
+		sql.append("             FROM   tb_article");
+		sql.append("             ORDER  BY no DESC) A) B");
+		sql.append(" WHERE rnum between ? and ?");
+
+		try {
+			cn = getConnection();
+			ps = cn.prepareStatement(sql.toString());
+			ps.setLong(1, pageNation.getStartnum());
+			ps.setLong(2, pageNation.getEndnum());
+			rs = ps.executeQuery();
+			while(rs.next()) {
+				ArticleVO articleVO = new ArticleVO();
+				articleVO.setNo(rs.getLong("no"));
+				articleVO.setTitle(rs.getString("title"));
+				articleVO.setName(rs.getString("name"));
+				articleVO.setRegdate(rs.getDate("regdate"));
+				articleVO.setViewcount(rs.getInt("viewcount"));
+				list.add(articleVO);
+			}
+		} finally {
+			dbClose(rs, ps, cn);
+		}
+		return list;*/
 	}
 }

@@ -26,49 +26,82 @@ public class PageNation {
 
 	private StringBuffer display = new StringBuffer();
 
-
-
 	public PageNation(long pg) throws Exception {
 		this.pg = pg;
 		startnum = (pg - 1) * pageSize + 1;
 		endnum = pg * pageSize;
-
-		startPage = (pg - 1)/blockSize * blockSize + 1;	
+		startPage = (pg - 1)/blockSize * blockSize + 1;
 		endPage = (pg - 1)/blockSize * blockSize + blockSize;
-
 		ArticleDAO articleDAO = ArticleDAOImpl.getInstance();
 		totalCount = articleDAO.getTotalCount();	// 전체 게시물 갯수 조회
-
 		pageCount = totalCount / pageSize;	// 전체 페이지 수
-
 		if (totalCount % pageSize != 0){
 			pageCount++;
 		}
-
 		if (pageCount < endPage) endPage = pageCount;
 
+		display.append("<ul class='pagination'>");
 		if (startPage == 1) {
-			display.append("[이전블럭]");
+			display.append("<li><a>[이전블럭]</a></li>");
 		} else {
-			display.append("<a href='list?pg=" + (startPage - 1) + "}'>[이전블럭]</a>");
+			display.append("<li><a href='list?pg=" + (startPage - 1) + "'>[이전블럭]</a></li>");
 		}
-
 		for(long p = startPage; p <= endPage; p++) {
-			if(p == pg) {
-				display.append("<a class='btn btn-secondary btn-sm'>" + p + "</a>");
+			if (p == pg) {
+				display.append("<li class=\"active\"><a>" + p + "</a></li>");
 			} else {
-				display.append("<a href='list?pg="+ p + "' class='btn btn-secondary btn-sm'>" + p +"</a>");
+				display.append("<li><a href='list?pg="+ p + "'>" + p + "</a></li>");
 			}
 		}
-
 		if (endPage == pageCount) {
-			display.append(" [다음블럭]");
+			display.append("<li><a>[다음블럭]</a></li>");
 		} else {
-			display.append(" <a href='list?pg=" + (endPage + 1) + "'>[다음블럭]</a>"); 
+			display.append("<li><a href='list?pg=" + (endPage + 1) + "'>[다음블럭]</a></li>");
 		}
-
-
+		display.append("</ul>");
 	}
+
+//	public PageNation(long pg) throws Exception {
+//		this.pg = pg;
+//		startnum = (pg - 1) * pageSize + 1;
+//		endnum = pg * pageSize;
+//
+//		startPage = (pg - 1)/blockSize * blockSize + 1;	
+//		endPage = (pg - 1)/blockSize * blockSize + blockSize;
+//
+//		ArticleDAO articleDAO = ArticleDAOImpl.getInstance();
+//		totalCount = articleDAO.getTotalCount();	// 전체 게시물 갯수 조회
+//
+//		pageCount = totalCount / pageSize;	// 전체 페이지 수
+//
+//		if (totalCount % pageSize != 0){
+//			pageCount++;
+//		}
+//
+//		if (pageCount < endPage) endPage = pageCount;
+//
+//		if (startPage == 1) {
+//			display.append("[이전블럭]");
+//		} else {
+//			display.append("<a href='list?pg=" + (startPage - 1) + "}'>[이전블럭]</a>");
+//		}
+//
+//		for(long p = startPage; p <= endPage; p++) {
+//			if(p == pg) {
+//				display.append("<a class='btn btn-secondary btn-sm'>" + p + "</a>");
+//			} else {
+//				display.append("<a href='list?pg="+ p + "' class='btn btn-secondary btn-sm'>" + p +"</a>");
+//			}
+//		}
+//
+//		if (endPage == pageCount) {
+//			display.append(" [다음블럭]");
+//		} else {
+//			display.append(" <a href='list?pg=" + (endPage + 1) + "'>[다음블럭]</a>"); 
+//		}
+//
+//
+//	}
 
 	public long getPg() {
 		return pg;

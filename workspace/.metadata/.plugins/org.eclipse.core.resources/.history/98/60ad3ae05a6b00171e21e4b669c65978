@@ -1,8 +1,0 @@
-package _0718.ibatis;
-
-public class Snippet {
-	public static void main(String[] args) {
-		System.out.println("Exception : Input is Wrong");
-	}
-}
-

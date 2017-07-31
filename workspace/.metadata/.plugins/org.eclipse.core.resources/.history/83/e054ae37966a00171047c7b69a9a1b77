@@ -1,5 +1,0 @@
-package watson.controllers;
-
-public class Text2Speech {
-
-}

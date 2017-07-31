@@ -1,0 +1,570 @@
+
+6월 16, 2017 10:34:43.64 NEW SESSION
+6월 16, 2017 10:34:43.64 
+6월 16, 2017 10:34:43.64 KLIB_SelfTest return : KLR_OK
+6월 16, 2017 10:50:56.09 
+6월 16, 2017 10:50:56.09 KLIB_SelfTest return : KLR_OK
+6월 16, 2017 11:32:16.09 
+6월 16, 2017 11:32:16.09 KLIB_SelfTest return : KLR_OK
+6월 16, 2017 11:47:41.87 
+6월 16, 2017 11:47:41.87 KLIB_SelfTest return : KLR_OK
+6월 16, 2017 13:35:55.12 [8040:1484:0616/133555.126:ERROR:tcp_socket_win.cc(813)] connect failed: 10013
+
+6월 19, 2017 11:30:06.45 NEW SESSION
+6월 19, 2017 11:30:06.45 
+6월 19, 2017 11:30:06.45 KLIB_SelfTest return : KLR_OK
+
+6월 21, 2017 15:44:39.42 NEW SESSION
+6월 21, 2017 15:44:39.42 
+6월 21, 2017 15:44:39.42 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 15:46:17.64 
+6월 21, 2017 15:46:17.65 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 15:48:52.63 
+6월 21, 2017 15:48:52.64 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 15:49:03.70 
+6월 21, 2017 15:49:03.70 KLIB_SelfTest return : KLR_OK
+
+6월 21, 2017 15:59:36.34 NEW SESSION
+6월 21, 2017 15:59:36.34 
+6월 21, 2017 15:59:36.36 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 16:01:03.61 
+6월 21, 2017 16:01:03.61 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 16:01:34.70 
+6월 21, 2017 16:01:34.70 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 16:04:50.22 
+6월 21, 2017 16:04:50.23 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 16:37:01.61 
+6월 21, 2017 16:37:01.61 KLIB_SelfTest return : KLR_OK
+6월 21, 2017 16:39:47.76 
+6월 21, 2017 16:39:47.76 KLIB_SelfTest return : KLR_OK
+
+6월 23, 2017 16:56:07.31 NEW SESSION
+6월 23, 2017 16:56:07.31 [7136:7184:0623/165607.292:ERROR:service_manager_context.cc(179)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.110\content_browser.service.exe
+6월 23, 2017 16:56:07.33 
+6월 23, 2017 16:56:07.33 KLIB_SelfTest return : KLR_OK
+
+6월 26, 2017 09:31:09.70 NEW SESSION
+6월 26, 2017 09:31:09.70 
+6월 26, 2017 09:31:09.71 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 09:32:18.43 
+6월 26, 2017 09:32:18.43 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 09:32:51.09 
+6월 26, 2017 09:32:51.09 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 09:33:19.46 
+6월 26, 2017 09:33:19.46 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 09:34:21.30 
+6월 26, 2017 09:34:21.30 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 09:44:38.21 
+6월 26, 2017 09:44:38.21 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 09:45:03.29 
+6월 26, 2017 09:45:03.30 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 10:26:18.57 
+6월 26, 2017 10:26:18.57 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 10:26:43.61 [3364:7788:0626/102643.610:ERROR:service_manager_context.cc(179)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.110\content_browser.service.exe
+6월 26, 2017 10:26:51.95 
+6월 26, 2017 10:26:51.95 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 10:35:03.70 
+6월 26, 2017 10:35:03.70 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 10:35:20.59 
+6월 26, 2017 10:35:20.59 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 10:37:10.50 
+6월 26, 2017 10:37:10.50 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 10:46:54.53 
+6월 26, 2017 10:46:54.53 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 11:00:45.63 
+6월 26, 2017 11:00:45.63 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 11:01:41.13 
+6월 26, 2017 11:01:41.13 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 11:27:19.04 
+6월 26, 2017 11:27:19.04 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 14:10:56.94 [3092:4980:0626/141056.947:ERROR:service_manager_context.cc(179)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.110\content_browser.service.exe
+6월 26, 2017 14:10:56.97 
+6월 26, 2017 14:10:56.97 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 14:15:14.46 
+6월 26, 2017 14:15:14.46 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 14:37:14.25 
+6월 26, 2017 14:37:14.25 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 14:37:57.64 
+6월 26, 2017 14:37:57.64 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 14:39:28.71 
+6월 26, 2017 14:39:28.71 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 14:53:47.78 
+6월 26, 2017 14:53:47.78 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 15:31:33.22 
+6월 26, 2017 15:31:33.22 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 15:32:28.08 
+6월 26, 2017 15:32:28.08 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 15:40:04.19 
+6월 26, 2017 15:40:04.19 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 16:31:10.64 
+6월 26, 2017 16:31:10.64 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 17:28:18.33 
+6월 26, 2017 17:28:18.33 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 17:31:52.11 
+6월 26, 2017 17:31:52.11 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 17:35:37.71 
+6월 26, 2017 17:35:37.71 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 17:52:23.11 
+6월 26, 2017 17:52:23.11 KLIB_SelfTest return : KLR_OK
+6월 26, 2017 17:52:39.60 
+6월 26, 2017 17:52:39.60 KLIB_SelfTest return : KLR_OK
+
+6월 27, 2017 09:22:21.85 NEW SESSION
+6월 27, 2017 09:22:21.85 
+6월 27, 2017 09:22:21.85 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 09:26:19.83 
+6월 27, 2017 09:26:19.83 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 10:15:16.62 
+6월 27, 2017 10:15:16.62 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 10:36:23.14 [1012:5656:0627/103623.142:ERROR:service_manager_context.cc(179)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.110\content_browser.service.exe
+6월 27, 2017 10:36:23.17 
+6월 27, 2017 10:36:23.17 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 10:37:24.05 
+6월 27, 2017 10:37:24.05 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 10:38:04.50 
+6월 27, 2017 10:38:04.50 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 10:38:52.02 
+6월 27, 2017 10:38:52.02 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 13:07:50.98 
+6월 27, 2017 13:07:50.98 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 13:30:08.94 
+6월 27, 2017 13:30:08.94 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:08:52.87 
+6월 27, 2017 14:08:52.87 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:09:27.79 
+6월 27, 2017 14:09:27.79 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:11:26.38 
+6월 27, 2017 14:11:26.38 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:13:22.84 
+6월 27, 2017 14:13:22.84 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:19:07.41 
+6월 27, 2017 14:19:07.41 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:19:27.26 
+6월 27, 2017 14:19:27.26 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:32:06.39 
+6월 27, 2017 14:32:06.39 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 14:39:33.66 [6440:9128:0627/143933.661:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+6월 27, 2017 14:44:31.98 
+6월 27, 2017 14:44:31.98 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 15:20:45.38 
+6월 27, 2017 15:20:45.38 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 15:23:07.71 
+6월 27, 2017 15:23:07.71 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 15:26:54.18 
+6월 27, 2017 15:26:54.18 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 15:28:54.24 
+6월 27, 2017 15:28:54.24 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 15:40:35.99 
+6월 27, 2017 15:40:35.99 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 15:42:05.11 
+6월 27, 2017 15:42:05.11 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 15:45:30.31 
+6월 27, 2017 15:45:30.31 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 16:03:04.83 
+6월 27, 2017 16:03:04.83 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 16:04:34.57 
+6월 27, 2017 16:04:34.57 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 16:05:15.70 
+6월 27, 2017 16:05:15.70 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 16:05:23.25 
+6월 27, 2017 16:05:23.25 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 16:07:07.83 
+6월 27, 2017 16:07:07.83 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 16:43:22.34 
+6월 27, 2017 16:43:22.35 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 17:09:27.80 
+6월 27, 2017 17:09:27.80 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 17:12:31.69 
+6월 27, 2017 17:12:31.69 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 17:14:05.40 
+6월 27, 2017 17:14:05.40 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 17:17:58.21 
+6월 27, 2017 17:17:58.22 KLIB_SelfTest return : KLR_OK
+6월 27, 2017 17:39:43.88 
+6월 27, 2017 17:39:43.88 KLIB_SelfTest return : KLR_OK
+
+6월 28, 2017 09:17:33.99 NEW SESSION
+6월 28, 2017 09:17:33.99 
+6월 28, 2017 09:17:33.99 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 09:17:57.33 
+6월 28, 2017 09:17:57.33 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 09:19:24.27 
+6월 28, 2017 09:19:24.27 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 09:21:12.40 
+6월 28, 2017 09:21:12.40 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 09:22:19.41 
+6월 28, 2017 09:22:19.41 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 09:23:54.78 
+6월 28, 2017 09:23:54.79 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 09:41:03.24 
+6월 28, 2017 09:41:03.24 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 09:45:25.99 
+6월 28, 2017 09:45:25.99 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 11:17:37.32 
+6월 28, 2017 11:17:37.33 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 11:52:47.56 [5928:7204:0628/115247.560:ERROR:ssl_client_socket_impl.cc(1054)] handshake failed; returned -1, SSL error code 1, net_error -101
+6월 28, 2017 13:28:37.83 
+6월 28, 2017 13:28:37.83 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 13:29:00.88 
+6월 28, 2017 13:29:00.88 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 15:43:07.23 
+6월 28, 2017 15:43:07.23 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 16:00:23.22 
+6월 28, 2017 16:00:23.23 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 16:20:27.06 
+6월 28, 2017 16:20:27.06 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 16:21:07.34 
+6월 28, 2017 16:21:07.34 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 16:24:18.57 
+6월 28, 2017 16:24:18.57 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 16:29:51.15 
+6월 28, 2017 16:29:51.15 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 17:14:07.03 
+6월 28, 2017 17:14:07.03 KLIB_SelfTest return : KLR_OK
+6월 28, 2017 17:19:46.79 
+6월 28, 2017 17:19:46.79 KLIB_SelfTest return : KLR_OK
+
+6월 29, 2017 11:35:51.49 NEW SESSION
+6월 29, 2017 11:35:51.50 
+6월 29, 2017 11:35:51.50 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 11:37:28.46 
+6월 29, 2017 11:37:28.46 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 11:41:14.40 
+6월 29, 2017 11:41:14.40 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 13:50:44.19 
+6월 29, 2017 13:50:44.19 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 13:52:38.80 
+6월 29, 2017 13:52:38.80 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 14:33:55.63 
+6월 29, 2017 14:33:55.63 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 15:28:20.21 
+6월 29, 2017 15:28:20.21 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 15:29:33.52 
+6월 29, 2017 15:29:33.52 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 15:52:03.42 
+6월 29, 2017 15:52:03.42 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 15:57:24.45 
+6월 29, 2017 15:57:24.45 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 16:04:49.27 
+6월 29, 2017 16:04:49.27 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 16:08:22.11 
+6월 29, 2017 16:08:22.11 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 16:10:27.71 
+6월 29, 2017 16:10:27.71 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 16:10:58.51 
+6월 29, 2017 16:10:58.51 KLIB_SelfTest return : KLR_OK
+6월 29, 2017 16:46:59.97 
+6월 29, 2017 16:46:59.97 KLIB_SelfTest return : KLR_OK
+
+7월 03, 2017 10:27:17.97 NEW SESSION
+7월 03, 2017 10:27:17.97 
+7월 03, 2017 10:27:17.97 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 10:29:31.71 
+7월 03, 2017 10:29:31.71 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 10:46:05.73 [4152:5704:0703/104605.734:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 03, 2017 10:46:05.76 
+7월 03, 2017 10:46:05.76 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 10:47:08.97 
+7월 03, 2017 10:47:08.97 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 10:47:19.37 
+7월 03, 2017 10:47:19.37 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 10:48:05.93 
+7월 03, 2017 10:48:05.93 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 11:19:02.96 
+7월 03, 2017 11:19:02.96 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 13:16:44.35 
+7월 03, 2017 13:16:44.35 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 13:19:07.57 
+7월 03, 2017 13:19:07.58 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 14:34:35.59 
+7월 03, 2017 14:34:35.59 KLIB_SelfTest return : KLR_OK
+
+7월 03, 2017 17:42:28.21 NEW SESSION
+7월 03, 2017 17:42:28.21 
+7월 03, 2017 17:42:28.23 KLIB_SelfTest return : KLR_OK
+7월 03, 2017 17:48:32.31 
+7월 03, 2017 17:48:32.31 KLIB_SelfTest return : KLR_OK
+
+7월 04, 2017 09:48:16.18 NEW SESSION
+7월 04, 2017 09:48:16.18 
+7월 04, 2017 09:48:16.19 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 09:56:11.29 
+7월 04, 2017 09:56:11.29 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 10:11:36.32 
+7월 04, 2017 10:11:36.32 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 10:58:59.53 
+7월 04, 2017 10:58:59.53 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 11:10:38.88 
+7월 04, 2017 11:10:38.88 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 11:38:04.42 
+7월 04, 2017 11:38:04.43 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 11:46:25.93 
+7월 04, 2017 11:46:25.94 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 11:47:13.08 
+7월 04, 2017 11:47:13.08 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:10:07.01 
+7월 04, 2017 13:10:07.01 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:10:41.36 
+7월 04, 2017 13:10:41.36 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:10:51.35 
+7월 04, 2017 13:10:51.35 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:12:21.80 
+7월 04, 2017 13:12:21.80 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:13:59.98 
+7월 04, 2017 13:13:59.98 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:14:22.14 
+7월 04, 2017 13:14:22.14 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:14:52.52 
+7월 04, 2017 13:14:52.53 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:16:04.09 
+7월 04, 2017 13:16:04.09 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:24:19.22 
+7월 04, 2017 13:24:19.22 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 13:41:51.29 
+7월 04, 2017 13:41:51.30 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 14:47:29.12 
+7월 04, 2017 14:47:29.12 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 15:31:40.08 
+7월 04, 2017 15:31:40.08 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 15:32:10.69 
+7월 04, 2017 15:32:10.69 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 15:37:36.40 
+7월 04, 2017 15:37:36.40 KLIB_SelfTest return : KLR_OK
+
+7월 04, 2017 15:54:48.51 NEW SESSION
+7월 04, 2017 15:54:48.51 
+7월 04, 2017 15:54:48.55 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 15:57:13.38 
+7월 04, 2017 15:57:13.38 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 17:29:55.46 
+7월 04, 2017 17:29:55.46 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 17:30:06.76 
+7월 04, 2017 17:30:06.76 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 17:37:47.13 
+7월 04, 2017 17:37:47.13 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 17:41:32.67 
+7월 04, 2017 17:41:32.67 KLIB_SelfTest return : KLR_OK
+7월 04, 2017 17:42:29.83 
+7월 04, 2017 17:42:29.83 KLIB_SelfTest return : KLR_OK
+
+7월 05, 2017 10:27:17.40 NEW SESSION
+7월 05, 2017 10:27:17.40 
+7월 05, 2017 10:27:17.40 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:28:54.57 
+7월 05, 2017 10:28:54.57 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:34:40.54 
+7월 05, 2017 10:34:40.54 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:34:59.47 
+7월 05, 2017 10:34:59.47 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:51:13.01 
+7월 05, 2017 10:51:13.01 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 10:52:52.04 
+7월 05, 2017 10:52:52.04 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 11:25:53.26 
+7월 05, 2017 11:25:53.26 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 11:28:09.61 
+7월 05, 2017 11:28:09.61 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 11:43:56.72 
+7월 05, 2017 11:43:56.72 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 13:42:53.91 
+7월 05, 2017 13:42:53.91 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 13:44:54.44 
+7월 05, 2017 13:44:54.44 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:30:10.97 
+7월 05, 2017 14:30:10.97 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:31:26.18 
+7월 05, 2017 14:31:26.18 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:32:38.33 
+7월 05, 2017 14:32:38.33 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:46:20.46 
+7월 05, 2017 14:46:20.46 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:46:41.32 
+7월 05, 2017 14:46:41.32 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:48:55.87 
+7월 05, 2017 14:48:55.87 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:50:09.22 
+7월 05, 2017 14:50:09.22 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 14:51:03.08 
+7월 05, 2017 14:51:03.08 KLIB_SelfTest return : KLR_OK
+
+7월 05, 2017 17:09:56.17 NEW SESSION
+7월 05, 2017 17:09:56.17 
+7월 05, 2017 17:09:56.17 KLIB_SelfTest return : KLR_OK
+7월 05, 2017 17:35:53.20 
+7월 05, 2017 17:35:53.20 KLIB_SelfTest return : KLR_OK
+
+7월 06, 2017 09:09:56.97 NEW SESSION
+7월 06, 2017 09:09:56.97 
+7월 06, 2017 09:09:56.97 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 10:40:37.50 
+7월 06, 2017 10:40:37.50 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 10:40:53.33 
+7월 06, 2017 10:40:53.33 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 10:41:03.95 
+7월 06, 2017 10:41:03.95 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 10:41:32.56 
+7월 06, 2017 10:41:32.56 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 13:14:03.12 
+7월 06, 2017 13:14:03.12 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 13:18:00.70 
+7월 06, 2017 13:18:00.71 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 13:43:10.03 [6284:6152:0706/134310.030:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:43:10.03 [6284:6152:0706/134310.031:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:43:10.03 [6284:6152:0706/134310.031:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:43:10.03 [6284:6152:0706/134310.031:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:43:10.03 [6284:6152:0706/134310.031:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:43:10.03 [6284:6152:0706/134310.032:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:43:10.05 
+7월 06, 2017 13:43:10.05 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 13:44:46.40 [2704:6436:0706/134446.403:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:44:46.40 [2704:6436:0706/134446.403:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:44:46.40 [2704:6436:0706/134446.403:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:44:46.40 [2704:6436:0706/134446.404:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:44:46.40 [2704:6436:0706/134446.404:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:44:46.40 [2704:6436:0706/134446.404:ERROR:service_manager_context.cc(161)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\59.0.3071.115\content_browser.service.exe
+7월 06, 2017 13:44:46.42 
+7월 06, 2017 13:44:46.42 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:14:54.07 
+7월 06, 2017 14:14:54.07 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:15:11.15 
+7월 06, 2017 14:15:11.15 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:15:27.29 
+7월 06, 2017 14:15:27.29 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:19:23.62 
+7월 06, 2017 14:19:23.62 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:22:05.90 
+7월 06, 2017 14:22:05.90 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:34:43.41 
+7월 06, 2017 14:34:43.41 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:45:31.71 
+7월 06, 2017 14:45:31.71 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 14:55:56.50 
+7월 06, 2017 14:55:56.50 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 15:19:47.14 
+7월 06, 2017 15:19:47.14 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 15:50:09.15 
+7월 06, 2017 15:50:09.15 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 15:51:01.17 
+7월 06, 2017 15:51:01.17 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 16:07:40.73 
+7월 06, 2017 16:07:40.73 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 16:17:04.65 
+7월 06, 2017 16:17:04.65 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 16:31:40.99 
+7월 06, 2017 16:31:40.99 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 17:15:52.41 
+7월 06, 2017 17:15:52.41 KLIB_SelfTest return : KLR_OK
+7월 06, 2017 17:50:13.69 
+7월 06, 2017 17:50:13.69 KLIB_SelfTest return : KLR_OK
+
+7월 10, 2017 09:38:02.88 NEW SESSION
+7월 10, 2017 09:38:02.88 
+7월 10, 2017 09:38:02.88 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 10:18:11.44 
+7월 10, 2017 10:18:11.44 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 10:23:47.10 
+7월 10, 2017 10:23:47.10 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 10:48:02.81 
+7월 10, 2017 10:48:02.81 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 10:51:35.85 
+7월 10, 2017 10:51:35.85 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 10:55:45.36 
+7월 10, 2017 10:55:45.36 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 11:15:31.76 
+7월 10, 2017 11:15:31.76 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 11:25:41.14 
+7월 10, 2017 11:25:41.14 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 11:33:59.95 
+7월 10, 2017 11:33:59.95 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 12:31:32.85 
+7월 10, 2017 12:31:32.85 KLIB_SelfTest return : KLR_OK
+7월 10, 2017 16:43:44.27 
+7월 10, 2017 16:43:44.27 KLIB_SelfTest return : KLR_OK
+
+7월 11, 2017 10:57:16.17 NEW SESSION
+7월 11, 2017 10:57:16.17 
+7월 11, 2017 10:57:16.17 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 11:01:03.68 
+7월 11, 2017 11:01:03.68 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 11:03:16.52 [3544:3140:0711/110316.521:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 11, 2017 11:04:51.86 [3544:3140:0711/110451.861:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 11, 2017 11:10:15.60 
+7월 11, 2017 11:10:15.61 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 11:34:23.63 
+7월 11, 2017 11:34:23.63 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 11:49:30.52 [4088:4244:0711/114930.520:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+7월 11, 2017 11:51:01.94 
+7월 11, 2017 11:51:01.94 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 12:29:44.09 
+7월 11, 2017 12:29:44.09 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 12:49:05.93 
+7월 11, 2017 12:49:05.93 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:20:43.36 
+7월 11, 2017 13:20:43.36 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:24:20.66 
+7월 11, 2017 13:24:20.66 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:24:38.59 
+7월 11, 2017 13:24:38.59 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:28:01.20 
+7월 11, 2017 13:28:01.20 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:28:20.88 
+7월 11, 2017 13:28:20.88 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:43:11.64 
+7월 11, 2017 13:43:11.64 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:49:13.28 
+7월 11, 2017 13:49:13.28 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:51:39.96 
+7월 11, 2017 13:51:39.96 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 13:52:00.39 
+7월 11, 2017 13:52:00.39 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:06:14.39 
+7월 11, 2017 15:06:14.39 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:06:31.27 
+7월 11, 2017 15:06:31.27 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:19:58.11 
+7월 11, 2017 15:19:58.11 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:20:37.11 
+7월 11, 2017 15:20:37.11 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:33:55.05 
+7월 11, 2017 15:33:55.05 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:34:14.88 
+7월 11, 2017 15:34:14.88 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:34:28.68 
+7월 11, 2017 15:34:28.68 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 15:51:58.31 
+7월 11, 2017 15:51:58.31 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 16:02:55.18 
+7월 11, 2017 16:02:55.18 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 16:46:04.65 
+7월 11, 2017 16:46:04.65 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 17:10:34.78 [7056:7100:0711/171034.785:ERROR:tcp_socket_win.cc(837)] connect failed: 10013
+7월 11, 2017 17:26:15.97 
+7월 11, 2017 17:26:15.98 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 17:27:30.77 
+7월 11, 2017 17:27:30.77 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 17:28:43.66 
+7월 11, 2017 17:28:43.66 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 17:29:11.17 
+7월 11, 2017 17:29:11.17 KLIB_SelfTest return : KLR_OK
+7월 11, 2017 17:30:59.64 
+7월 11, 2017 17:30:59.64 KLIB_SelfTest return : KLR_OK
+
+7월 12, 2017 11:31:59.26 NEW SESSION
+7월 12, 2017 11:31:59.26 [6540:1116:0712/113159.259:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+7월 12, 2017 11:32:01.15 [6540:1116:0712/113201.150:ERROR:audio_manager_base.cc(264)] Invalid audio output parameters received; using fake audio path. Channels: 0, Sample Rate: 0, Bits Per Sample: 0, Frames Per Buffer: 0
+
+7월 17, 2017 14:42:00.95 NEW SESSION
+7월 17, 2017 14:42:00.95 
+7월 17, 2017 14:42:00.97 KLIB_SelfTest return : KLR_OK
+
+7월 19, 2017 11:35:08.18 NEW SESSION
+7월 19, 2017 11:35:08.18 
+7월 19, 2017 11:35:08.19 KLIB_SelfTest return : KLR_OK
+
+7월 20, 2017 09:19:14.32 NEW SESSION
+7월 20, 2017 09:19:14.33 
+7월 20, 2017 09:19:14.34 KLIB_SelfTest return : KLR_OK
+7월 20, 2017 09:39:03.61 
+7월 20, 2017 09:39:03.61 KLIB_SelfTest return : KLR_OK
+7월 20, 2017 10:23:59.42 
+7월 20, 2017 10:23:59.42 KLIB_SelfTest return : KLR_OK

@@ -44,13 +44,10 @@
 			</tr>
 		</c:forEach>
 		<tr>
-			<td colspan="5">
-				${pageNation.display}
-			</td>
-		</tr>
 		</tbody>
 	</table>
 	<br /> 
+	<div class="text-center">${pageNation.display}</div>
 	<a class="btn btn-default" href="insert">글쓰기</a><br />
 </div>
 

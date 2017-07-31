@@ -36,13 +36,11 @@
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.TextToSpeech"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.model.AudioFormat"/>
 <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
-<fullyQualifiedTypeName name="article.controllers.ModelAndView"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.http.ServiceCall"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="watson.controllers.Text2SpeechAction"/>
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.ibm.watson.developer_cloud.text_to_speech.v1.model.Voice"/>
-<fullyQualifiedTypeName name="article.controllers.AbstractController"/>
 <fullyQualifiedTypeName name="java.net.URLEncoder"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="sun.print.resources.serviceui"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="com.ibatis.sqlmap.client.SqlMapClient"/>
 <fullyQualifiedTypeName name="ibatis.QueryHandler"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="article.controllers.AbstractController"/>
+<fullyQualifiedTypeName name="article.controllers.ModelAndView"/>
 </qualifiedTypeNameHistroy>
